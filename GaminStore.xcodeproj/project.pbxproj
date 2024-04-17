@@ -8,12 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		C2E10F3E2BD05191008AF02E /* GaminStoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E10F3D2BD05191008AF02E /* GaminStoreApp.swift */; };
-		C2E10F402BD05191008AF02E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E10F3F2BD05191008AF02E /* ContentView.swift */; };
 		C2E10F422BD05194008AF02E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2E10F412BD05194008AF02E /* Assets.xcassets */; };
 		C2E10F452BD05194008AF02E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2E10F442BD05194008AF02E /* Preview Assets.xcassets */; };
 		C2E10F4F2BD05195008AF02E /* GaminStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E10F4E2BD05195008AF02E /* GaminStoreTests.swift */; };
 		C2E10F592BD05195008AF02E /* GaminStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E10F582BD05195008AF02E /* GaminStoreUITests.swift */; };
 		C2E10F5B2BD05195008AF02E /* GaminStoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E10F5A2BD05195008AF02E /* GaminStoreUITestsLaunchTests.swift */; };
+		C2E10F742BD051CC008AF02E /* CartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E10F692BD051CC008AF02E /* CartButton.swift */; };
+		C2E10F752BD051CC008AF02E /* SearchECView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E10F6A2BD051CC008AF02E /* SearchECView.swift */; };
+		C2E10F762BD051CC008AF02E /* ProductCardECView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E10F6B2BD051CC008AF02E /* ProductCardECView.swift */; };
+		C2E10F772BD051CC008AF02E /* ImageSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E10F6C2BD051CC008AF02E /* ImageSliderView.swift */; };
+		C2E10F782BD051CC008AF02E /* EcomesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E10F6E2BD051CC008AF02E /* EcomesViewModel.swift */; };
+		C2E10F792BD051CC008AF02E /* EcommerceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E10F6F2BD051CC008AF02E /* EcommerceApp.swift */; };
+		C2E10F7A2BD051CC008AF02E /* EcommerseModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E10F712BD051CC008AF02E /* EcommerseModels.swift */; };
+		C2E10F7B2BD051CC008AF02E /* HomeEC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E10F732BD051CC008AF02E /* HomeEC.swift */; };
+		C2E10F7E2BD0521C008AF02E /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = C2E10F7D2BD0521C008AF02E /* Kingfisher */; };
+		C2E10F802BD0578D008AF02E /* CartProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E10F7F2BD0578D008AF02E /* CartProductView.swift */; };
+		C2E10F822BD05A7B008AF02E /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E10F812BD05A7B008AF02E /* CartView.swift */; };
+		C2E10F842BD06EBF008AF02E /* ApplePayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E10F832BD06EBE008AF02E /* ApplePayButton.swift */; };
+		C2E10F862BD0765E008AF02E /* ProductDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E10F852BD0765D008AF02E /* ProductDetailsView.swift */; };
+		C2E10F882BD08554008AF02E /* AllProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E10F872BD08554008AF02E /* AllProducts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +49,6 @@
 /* Begin PBXFileReference section */
 		C2E10F3A2BD05191008AF02E /* GaminStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GaminStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2E10F3D2BD05191008AF02E /* GaminStoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaminStoreApp.swift; sourceTree = "<group>"; };
-		C2E10F3F2BD05191008AF02E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C2E10F412BD05194008AF02E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2E10F442BD05194008AF02E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C2E10F4A2BD05195008AF02E /* GaminStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaminStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +56,19 @@
 		C2E10F542BD05195008AF02E /* GaminStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaminStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2E10F582BD05195008AF02E /* GaminStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaminStoreUITests.swift; sourceTree = "<group>"; };
 		C2E10F5A2BD05195008AF02E /* GaminStoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaminStoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C2E10F692BD051CC008AF02E /* CartButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartButton.swift; sourceTree = "<group>"; };
+		C2E10F6A2BD051CC008AF02E /* SearchECView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchECView.swift; sourceTree = "<group>"; };
+		C2E10F6B2BD051CC008AF02E /* ProductCardECView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCardECView.swift; sourceTree = "<group>"; };
+		C2E10F6C2BD051CC008AF02E /* ImageSliderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSliderView.swift; sourceTree = "<group>"; };
+		C2E10F6E2BD051CC008AF02E /* EcomesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EcomesViewModel.swift; sourceTree = "<group>"; };
+		C2E10F6F2BD051CC008AF02E /* EcommerceApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EcommerceApp.swift; sourceTree = "<group>"; };
+		C2E10F712BD051CC008AF02E /* EcommerseModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EcommerseModels.swift; sourceTree = "<group>"; };
+		C2E10F732BD051CC008AF02E /* HomeEC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeEC.swift; sourceTree = "<group>"; };
+		C2E10F7F2BD0578D008AF02E /* CartProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartProductView.swift; sourceTree = "<group>"; };
+		C2E10F812BD05A7B008AF02E /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		C2E10F832BD06EBE008AF02E /* ApplePayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplePayButton.swift; sourceTree = "<group>"; };
+		C2E10F852BD0765D008AF02E /* ProductDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsView.swift; sourceTree = "<group>"; };
+		C2E10F872BD08554008AF02E /* AllProducts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllProducts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2E10F7E2BD0521C008AF02E /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +121,8 @@
 			isa = PBXGroup;
 			children = (
 				C2E10F3D2BD05191008AF02E /* GaminStoreApp.swift */,
-				C2E10F3F2BD05191008AF02E /* ContentView.swift */,
+				C2E10F6F2BD051CC008AF02E /* EcommerceApp.swift */,
+				C2E10F672BD051CC008AF02E /* Ecomerce */,
 				C2E10F412BD05194008AF02E /* Assets.xcassets */,
 				C2E10F432BD05194008AF02E /* Preview Content */,
 			);
@@ -127,6 +154,57 @@
 			path = GaminStoreUITests;
 			sourceTree = "<group>";
 		};
+		C2E10F672BD051CC008AF02E /* Ecomerce */ = {
+			isa = PBXGroup;
+			children = (
+				C2E10F682BD051CC008AF02E /* ECComponents */,
+				C2E10F6D2BD051CC008AF02E /* ViewModels */,
+				C2E10F702BD051CC008AF02E /* Models */,
+				C2E10F722BD051CC008AF02E /* View */,
+			);
+			path = Ecomerce;
+			sourceTree = "<group>";
+		};
+		C2E10F682BD051CC008AF02E /* ECComponents */ = {
+			isa = PBXGroup;
+			children = (
+				C2E10F7F2BD0578D008AF02E /* CartProductView.swift */,
+				C2E10F692BD051CC008AF02E /* CartButton.swift */,
+				C2E10F6A2BD051CC008AF02E /* SearchECView.swift */,
+				C2E10F6B2BD051CC008AF02E /* ProductCardECView.swift */,
+				C2E10F6C2BD051CC008AF02E /* ImageSliderView.swift */,
+				C2E10F832BD06EBE008AF02E /* ApplePayButton.swift */,
+			);
+			path = ECComponents;
+			sourceTree = "<group>";
+		};
+		C2E10F6D2BD051CC008AF02E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C2E10F6E2BD051CC008AF02E /* EcomesViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C2E10F702BD051CC008AF02E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C2E10F712BD051CC008AF02E /* EcommerseModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C2E10F722BD051CC008AF02E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C2E10F732BD051CC008AF02E /* HomeEC.swift */,
+				C2E10F812BD05A7B008AF02E /* CartView.swift */,
+				C2E10F852BD0765D008AF02E /* ProductDetailsView.swift */,
+				C2E10F872BD08554008AF02E /* AllProducts.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +221,9 @@
 			dependencies = (
 			);
 			name = GaminStore;
+			packageProductDependencies = (
+				C2E10F7D2BD0521C008AF02E /* Kingfisher */,
+			);
 			productName = GaminStore;
 			productReference = C2E10F3A2BD05191008AF02E /* GaminStore.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +296,9 @@
 				Base,
 			);
 			mainGroup = C2E10F312BD05191008AF02E;
+			packageReferences = (
+				C2E10F7C2BD0521C008AF02E /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = C2E10F3B2BD05191008AF02E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +341,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2E10F402BD05191008AF02E /* ContentView.swift in Sources */,
+				C2E10F882BD08554008AF02E /* AllProducts.swift in Sources */,
+				C2E10F7B2BD051CC008AF02E /* HomeEC.swift in Sources */,
 				C2E10F3E2BD05191008AF02E /* GaminStoreApp.swift in Sources */,
+				C2E10F752BD051CC008AF02E /* SearchECView.swift in Sources */,
+				C2E10F842BD06EBF008AF02E /* ApplePayButton.swift in Sources */,
+				C2E10F802BD0578D008AF02E /* CartProductView.swift in Sources */,
+				C2E10F772BD051CC008AF02E /* ImageSliderView.swift in Sources */,
+				C2E10F742BD051CC008AF02E /* CartButton.swift in Sources */,
+				C2E10F822BD05A7B008AF02E /* CartView.swift in Sources */,
+				C2E10F762BD051CC008AF02E /* ProductCardECView.swift in Sources */,
+				C2E10F792BD051CC008AF02E /* EcommerceApp.swift in Sources */,
+				C2E10F862BD0765E008AF02E /* ProductDetailsView.swift in Sources */,
+				C2E10F782BD051CC008AF02E /* EcomesViewModel.swift in Sources */,
+				C2E10F7A2BD051CC008AF02E /* EcommerseModels.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,6 +684,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C2E10F7C2BD0521C008AF02E /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C2E10F7D2BD0521C008AF02E /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C2E10F7C2BD0521C008AF02E /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C2E10F322BD05191008AF02E /* Project object */;
 }

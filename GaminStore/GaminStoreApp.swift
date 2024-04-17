@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct GaminStoreApp: App {
+    @StateObject var vm = CartEcomesViewModel()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack{
+                EcommerceApp()
+                    .environmentObject(vm)
+            }
+          
         }
     }
 }
