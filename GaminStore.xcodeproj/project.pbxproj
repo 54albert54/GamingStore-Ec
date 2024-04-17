@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2E10F3E2BD05191008AF02E /* GaminStoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E10F3D2BD05191008AF02E /* GaminStoreApp.swift */; };
+		C2E10F402BD05191008AF02E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E10F3F2BD05191008AF02E /* ContentView.swift */; };
+		C2E10F422BD05194008AF02E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2E10F412BD05194008AF02E /* Assets.xcassets */; };
+		C2E10F452BD05194008AF02E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2E10F442BD05194008AF02E /* Preview Assets.xcassets */; };
+		C2E10F4F2BD05195008AF02E /* GaminStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E10F4E2BD05195008AF02E /* GaminStoreTests.swift */; };
+		C2E10F592BD05195008AF02E /* GaminStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E10F582BD05195008AF02E /* GaminStoreUITests.swift */; };
+		C2E10F5B2BD05195008AF02E /* GaminStoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E10F5A2BD05195008AF02E /* GaminStoreUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2E10F4B2BD05195008AF02E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2E10F322BD05191008AF02E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2E10F392BD05191008AF02E;
+			remoteInfo = GaminStore;
+		};
+		C2E10F552BD05195008AF02E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2E10F322BD05191008AF02E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2E10F392BD05191008AF02E;
+			remoteInfo = GaminStore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C2E10F3A2BD05191008AF02E /* GaminStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GaminStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2E10F3D2BD05191008AF02E /* GaminStoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaminStoreApp.swift; sourceTree = "<group>"; };
+		C2E10F3F2BD05191008AF02E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C2E10F412BD05194008AF02E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2E10F442BD05194008AF02E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C2E10F4A2BD05195008AF02E /* GaminStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaminStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2E10F4E2BD05195008AF02E /* GaminStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaminStoreTests.swift; sourceTree = "<group>"; };
+		C2E10F542BD05195008AF02E /* GaminStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaminStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2E10F582BD05195008AF02E /* GaminStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaminStoreUITests.swift; sourceTree = "<group>"; };
+		C2E10F5A2BD05195008AF02E /* GaminStoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaminStoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2E10F372BD05191008AF02E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2E10F472BD05195008AF02E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2E10F512BD05195008AF02E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2E10F312BD05191008AF02E = {
+			isa = PBXGroup;
+			children = (
+				C2E10F3C2BD05191008AF02E /* GaminStore */,
+				C2E10F4D2BD05195008AF02E /* GaminStoreTests */,
+				C2E10F572BD05195008AF02E /* GaminStoreUITests */,
+				C2E10F3B2BD05191008AF02E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2E10F3B2BD05191008AF02E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2E10F3A2BD05191008AF02E /* GaminStore.app */,
+				C2E10F4A2BD05195008AF02E /* GaminStoreTests.xctest */,
+				C2E10F542BD05195008AF02E /* GaminStoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2E10F3C2BD05191008AF02E /* GaminStore */ = {
+			isa = PBXGroup;
+			children = (
+				C2E10F3D2BD05191008AF02E /* GaminStoreApp.swift */,
+				C2E10F3F2BD05191008AF02E /* ContentView.swift */,
+				C2E10F412BD05194008AF02E /* Assets.xcassets */,
+				C2E10F432BD05194008AF02E /* Preview Content */,
+			);
+			path = GaminStore;
+			sourceTree = "<group>";
+		};
+		C2E10F432BD05194008AF02E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C2E10F442BD05194008AF02E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C2E10F4D2BD05195008AF02E /* GaminStoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2E10F4E2BD05195008AF02E /* GaminStoreTests.swift */,
+			);
+			path = GaminStoreTests;
+			sourceTree = "<group>";
+		};
+		C2E10F572BD05195008AF02E /* GaminStoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C2E10F582BD05195008AF02E /* GaminStoreUITests.swift */,
+				C2E10F5A2BD05195008AF02E /* GaminStoreUITestsLaunchTests.swift */,
+			);
+			path = GaminStoreUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2E10F392BD05191008AF02E /* GaminStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2E10F5E2BD05195008AF02E /* Build configuration list for PBXNativeTarget "GaminStore" */;
+			buildPhases = (
+				C2E10F362BD05191008AF02E /* Sources */,
+				C2E10F372BD05191008AF02E /* Frameworks */,
+				C2E10F382BD05191008AF02E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GaminStore;
+			productName = GaminStore;
+			productReference = C2E10F3A2BD05191008AF02E /* GaminStore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2E10F492BD05195008AF02E /* GaminStoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2E10F612BD05195008AF02E /* Build configuration list for PBXNativeTarget "GaminStoreTests" */;
+			buildPhases = (
+				C2E10F462BD05195008AF02E /* Sources */,
+				C2E10F472BD05195008AF02E /* Frameworks */,
+				C2E10F482BD05195008AF02E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2E10F4C2BD05195008AF02E /* PBXTargetDependency */,
+			);
+			name = GaminStoreTests;
+			productName = GaminStoreTests;
+			productReference = C2E10F4A2BD05195008AF02E /* GaminStoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C2E10F532BD05195008AF02E /* GaminStoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2E10F642BD05195008AF02E /* Build configuration list for PBXNativeTarget "GaminStoreUITests" */;
+			buildPhases = (
+				C2E10F502BD05195008AF02E /* Sources */,
+				C2E10F512BD05195008AF02E /* Frameworks */,
+				C2E10F522BD05195008AF02E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2E10F562BD05195008AF02E /* PBXTargetDependency */,
+			);
+			name = GaminStoreUITests;
+			productName = GaminStoreUITests;
+			productReference = C2E10F542BD05195008AF02E /* GaminStoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2E10F322BD05191008AF02E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					C2E10F392BD05191008AF02E = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					C2E10F492BD05195008AF02E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = C2E10F392BD05191008AF02E;
+					};
+					C2E10F532BD05195008AF02E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = C2E10F392BD05191008AF02E;
+					};
+				};
+			};
+			buildConfigurationList = C2E10F352BD05191008AF02E /* Build configuration list for PBXProject "GaminStore" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2E10F312BD05191008AF02E;
+			productRefGroup = C2E10F3B2BD05191008AF02E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2E10F392BD05191008AF02E /* GaminStore */,
+				C2E10F492BD05195008AF02E /* GaminStoreTests */,
+				C2E10F532BD05195008AF02E /* GaminStoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2E10F382BD05191008AF02E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E10F452BD05194008AF02E /* Preview Assets.xcassets in Resources */,
+				C2E10F422BD05194008AF02E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2E10F482BD05195008AF02E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2E10F522BD05195008AF02E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2E10F362BD05191008AF02E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E10F402BD05191008AF02E /* ContentView.swift in Sources */,
+				C2E10F3E2BD05191008AF02E /* GaminStoreApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2E10F462BD05195008AF02E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E10F4F2BD05195008AF02E /* GaminStoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2E10F502BD05195008AF02E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E10F592BD05195008AF02E /* GaminStoreUITests.swift in Sources */,
+				C2E10F5B2BD05195008AF02E /* GaminStoreUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2E10F4C2BD05195008AF02E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2E10F392BD05191008AF02E /* GaminStore */;
+			targetProxy = C2E10F4B2BD05195008AF02E /* PBXContainerItemProxy */;
+		};
+		C2E10F562BD05195008AF02E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2E10F392BD05191008AF02E /* GaminStore */;
+			targetProxy = C2E10F552BD05195008AF02E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C2E10F5C2BD05195008AF02E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2E10F5D2BD05195008AF02E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2E10F5F2BD05195008AF02E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GaminStore/Preview Content\"";
+				DEVELOPMENT_TEAM = 26NJUS4K63;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = prueba2.GaminStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2E10F602BD05195008AF02E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GaminStore/Preview Content\"";
+				DEVELOPMENT_TEAM = 26NJUS4K63;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = prueba2.GaminStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C2E10F622BD05195008AF02E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 26NJUS4K63;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = prueba2.GaminStoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GaminStore.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GaminStore";
+			};
+			name = Debug;
+		};
+		C2E10F632BD05195008AF02E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 26NJUS4K63;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = prueba2.GaminStoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GaminStore.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GaminStore";
+			};
+			name = Release;
+		};
+		C2E10F652BD05195008AF02E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 26NJUS4K63;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = prueba2.GaminStoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GaminStore;
+			};
+			name = Debug;
+		};
+		C2E10F662BD05195008AF02E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 26NJUS4K63;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = prueba2.GaminStoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GaminStore;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2E10F352BD05191008AF02E /* Build configuration list for PBXProject "GaminStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2E10F5C2BD05195008AF02E /* Debug */,
+				C2E10F5D2BD05195008AF02E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2E10F5E2BD05195008AF02E /* Build configuration list for PBXNativeTarget "GaminStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2E10F5F2BD05195008AF02E /* Debug */,
+				C2E10F602BD05195008AF02E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2E10F612BD05195008AF02E /* Build configuration list for PBXNativeTarget "GaminStoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2E10F622BD05195008AF02E /* Debug */,
+				C2E10F632BD05195008AF02E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2E10F642BD05195008AF02E /* Build configuration list for PBXNativeTarget "GaminStoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2E10F652BD05195008AF02E /* Debug */,
+				C2E10F662BD05195008AF02E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2E10F322BD05191008AF02E /* Project object */;
+}
