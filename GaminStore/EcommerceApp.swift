@@ -20,20 +20,20 @@ struct EcommerceApp: View {
     
     var body: some View {
         TabView(selection: $currentTab){
-            HomeEC()
+            HistoryView()
                 .frame(maxWidth: .infinity, maxHeight: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
-                .background()
-               
-                .tag(Tab.Home)
-            Text("Search view")
-                .frame(maxWidth: .infinity, maxHeight: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
-                .background()
-                .tag(Tab.Search)
+                .tag(Tab.History)
             
             Text("Notification view")
                 .frame(maxWidth: .infinity, maxHeight: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
                 .background()
                 .tag(Tab.Notification)
+            HomeEC()
+                .frame(maxWidth: .infinity, maxHeight: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
+                .background()
+                .tag(Tab.Home)
+            
+            
             
             CartView()
                 .frame(maxWidth: .infinity, maxHeight: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
@@ -61,9 +61,13 @@ struct EcommerceApp: View {
             
             
         }
-//        .frame(maxHeight: .infinity ,alignment: .bottom)
+
+        
     }
+    
+    
     func TabButton(tab :Tab) -> some View{
+        
         GeometryReader{proxy in
             Button {
                 withAnimation(.spring) {
@@ -75,7 +79,7 @@ struct EcommerceApp: View {
                         .resizable()
                         .foregroundColor(.kPrimary)
                         .aspectRatio(contentMode: .fit)
-                        .frame(width: 25,height: 25)
+                        .frame(width: currentTab == tab ? 35 : 25 ,height: currentTab == tab ? 35 : 25)
                         .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
                         .background(
                             ZStack{
@@ -83,7 +87,7 @@ struct EcommerceApp: View {
                                     MaterialEffect (style: .light)
                                         .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
                                         .matchedGeometryEffect(id: "Tab", in: animation )
-                                        .frame(width: 60 )
+                                        .frame(width:  60 )
                                     
                                     Text(tab.TabName)
                                         .foregroundStyle(.kPrimary)
@@ -96,6 +100,7 @@ struct EcommerceApp: View {
                             }
                         ).contentShape(Rectangle())
                         .offset(y: currentTab == tab ? -10 : 0)
+                        .animation(.easeIn, value: currentTab)
                 })
             }
             
@@ -117,9 +122,10 @@ struct EcommerceApp: View {
 
 
 enum Tab:String , CaseIterable ,Hashable{
-    case Home = "house"
-    case Search = "magnifyingglass.circle"
+    
+    case History = "clock"
     case Notification = "bell"
+    case Home = "house"
     case Cart = "bag"
     case Profile = "person"
     
@@ -127,8 +133,8 @@ enum Tab:String , CaseIterable ,Hashable{
         switch self {
         case .Home:
             return "home"
-        case .Search:
-            return "Search"
+        case .History:
+            return "History"
         case .Notification:
             return "Notifications"
         case .Cart:
@@ -163,6 +169,8 @@ struct MaterialEffect:UIViewRepresentable{
         //
     }
 }
+
+
 
 
 

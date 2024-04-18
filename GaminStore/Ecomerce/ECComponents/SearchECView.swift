@@ -14,9 +14,19 @@ struct SearchECView: View {
             HStack{
                 Image(systemName: "magnifyingglass")
                     .padding(.leading)
+                ZStack{
+                    if search.isEmpty {
+                        Text("Search")
+                    }
+                    
+                   
+                }
                 TextField("Search ", text: $search)
+                
+                    
                     .padding()
             }
+            .foregroundStyle(.kPrimary)
             .background(Color.kSecondary)
             .clipShape(RoundedRectangle(cornerRadius: 15))
             

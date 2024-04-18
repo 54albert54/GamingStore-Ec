@@ -87,7 +87,7 @@ struct ShowAllProducts:View{
             VStack{
                 HStack{
                     Text("New Rivals")
-                        .foregroundStyle(.black)
+                        .foregroundStyle(.kPrimary)
                         .font(.largeTitle)
                     Spacer()
                     NavigationLink {
@@ -95,7 +95,10 @@ struct ShowAllProducts:View{
                             .environmentObject(CartEcomesViewModel())
                     } label: {
                         Image(systemName: "circle.grid.2x2.fill")
+                            .resizable()
+                            .frame(width: 30 ,height: 30)
                             .foregroundStyle(Color.kPrimary)
+                            .padding(.trailing)
                     }
                     
                 }

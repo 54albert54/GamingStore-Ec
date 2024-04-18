@@ -55,7 +55,7 @@ struct EcommerseProducts :Identifiable ,Hashable{
     static var dummyData: [EcommerseProducts] = [
         EcommerseProducts(
             name: "PlayStation 5",
-            image: "https://falabella.scene7.com/is/image/Falabella/gsc_126614735_4625926_1?wid=800&hei=800&qlt=70",
+            image: "https://imgs.search.brave.com/Jdbfarl8emVCzlk77CzHXwH7vF2BEm4b1EfuxuS4Ljw/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4u/bW9zLmNtcy5mdXR1/cmVjZG4ubmV0L0hr/ZE1Ub3hpam9IZno0/SndVZ2ZoM0ctNDgw/LTgwLmpwZw",
             description: "Experience lightning-fast loading with an ultra-high-speed SSD, deeper immersion with support for haptic feedback, adaptive triggers, and 3D Audio, and an all-new generation of incredible PlayStation games.",
             supplier: "Sony",
             price: 499
@@ -90,21 +90,21 @@ struct EcommerseProducts :Identifiable ,Hashable{
         ),
         EcommerseProducts(
             name: "Gaming Keyboard",
-            image: "https://resource.logitechg.com/w_692,c_lpad,ar_4:3,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/products/pro-keyboard/pro-keyboard-gallery/us-pro-gaming-keyboard-gallery-topdown.png?v=1",
+            image: "https://imgs.search.brave.com/5wJ5rQJABYgD4zOqvrGn7MBGpYcwIVckr9H6_AZdj6w/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTMz/MDU3NzQzNi9waG90/by9nYW1pbmcta2V5/Ym9hcmQtd2l0aC1p/bGx1bWluYXRlZC1r/ZXlwYWQtb24tdGFi/bGUuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPTFPTDRQRVQw/Nmp4TWRYSG96bTBy/LWdVSHhJVFpNLWRP/Nm53aWtibHZwdzQ9",
             description: "Enhance your gaming experience with a mechanical keyboard designed for precision and performance. Dominate the competition with tactile feedback and customizable key layouts.",
             supplier: "Various",
             price: 99
         ),
         EcommerseProducts(
             name: "Gaming Mouse",
-            image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6409/6409361_sd.jpg",
+            image: "https://imgs.search.brave.com/BDG4Jye2caDqkfG49POV6vek3Y7AOHlm8wfHOkg4JwU/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE2/MTYyOTY0MjU2MjIt/NDU2MGEyYWQ4M2Rl/P3E9ODAmdz0xMDAw/JmF1dG89Zm9ybWF0/JmZpdD1jcm9wJml4/bGliPXJiLTQuMC4z/Jml4aWQ9TTN3eE1q/QTNmREI4TUh4elpX/RnlZMmg4TVRCOGZH/ZGhiV2x1WnlVeU1H/MXZkWE5sZkdWdWZE/QjhmREI4Zkh3dw",
             description: "Achieve pinpoint accuracy and responsive control with a high precision gaming mouse. Experience smooth tracking and ergonomic design for extended gaming sessions.",
             supplier: "Various",
             price: 69
         ),
         EcommerseProducts(
             name: "Gaming Headset",
-            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHZPYcEMC7GDtDkgM2ixaoQtiLiW1LdsMheuE99C4xwBYiJLKXUN9yMmhfTUXock8vp94&usqp=CAU",
+            image: "https://imgs.search.brave.com/wKxvxLbn2wUxfsdoQNKT2dpMYiz9vFGLKP0GclRlpfQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jd3Nt/Z210LmNvcnNhaXIu/Y29tL2h5YnJpcy90/bGMvaGVhZHNldHMv/aW1hZ2VzL1RMQ19o/ZWFkc2V0c19saW5r/X3ZvaWRfZWxpdGUu/anBn",
             description: "Immerse yourself in the action with an immersive gaming headset. Experience crystal-clear audio and communicate with teammates seamlessly for an unparalleled gaming experience.",
             supplier: "Various",
             price: 129

@@ -17,6 +17,10 @@ struct CartView: View {
                 .ignoresSafeArea()
            
             VStack{
+                Text("Car")
+                    .font( .system(size: 33,weight: .bold))
+                    .frame(maxWidth:  .infinity,alignment: .leading)
+                    .padding()
                 
                 
                 if cartManager.cartProducts.count < 1 {
@@ -48,7 +52,9 @@ struct CartView: View {
                         
                     }
                     ApplePayButton {
-                        //
+                        if cartManager.cartProducts.count > 0 {
+                            cartManager.completedOrder()
+                        }
                     }
                     .padding(.bottom, 80)
                     

@@ -10,6 +10,7 @@ import Foundation
 class CartEcomesViewModel :ObservableObject {
     
     @Published private(set) var cartProducts = [EcommerseProducts]()
+    @Published var historyRecord = [HistoryModels]()
     
     @Published var cartTotal:Int = 0
     
@@ -25,7 +26,13 @@ class CartEcomesViewModel :ObservableObject {
         cartProducts  = cartProducts.filter{ $0.id != product.id }
         cartTotal -= product.price
     }
-    
-    
+    func completedOrder(){
+        var createdOrder = HistoryModels(listItems: cartProducts.map{ $0.name }, totalOfOrden: cartTotal)
+        historyRecord.append(createdOrder)
+        cartTotal = 0
+        cartProducts.removeAll()
+        
+    }
+
     
 }

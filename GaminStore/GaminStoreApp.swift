@@ -16,6 +16,8 @@ struct GaminStoreApp: App {
                 EcommerceApp()
                     .environmentObject(vm)
             }
+            
+//            Test()
           
         }
     }

@@ -9,11 +9,13 @@ import SwiftUI
 
 struct AllProducts: View {
     @EnvironmentObject var cartManager:CartEcomesViewModel
-    var column = [GridItem(.adaptive(minimum: 160) ,spacing: 20)]
+    var column = [GridItem(.adaptive(minimum: 160) ,spacing: 3)]
     var body: some View {
-        NavigationView {
+        ZStack {
+            Color.kPrimary
+                .ignoresSafeArea()
             ScrollView{
-                LazyVGrid(columns: column, spacing: 20){
+                LazyVGrid(columns: column, spacing: 10){
                     ForEach(EcommerseProducts.dummyData , id:\.id){ product in
                         NavigationLink {
                             ProductDetailsView(product: product)
@@ -25,12 +27,16 @@ struct AllProducts: View {
                 }
             }
             .navigationTitle("All Items")
+           
+            .foregroundStyle(Color.black)
         }
         
     }
 }
 
 #Preview {
-    AllProducts()
-        .environmentObject(CartEcomesViewModel())
+    NavigationView {
+        AllProducts()
+            .environmentObject(CartEcomesViewModel())
+    }
 }
