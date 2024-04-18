@@ -16,50 +16,56 @@ struct CartView: View {
             Color.white
                 .ignoresSafeArea()
            
-            VStack{
+            VStack(alignment:.leading){
+                
+                
                 Text("Car")
                     .font( .system(size: 33,weight: .bold))
                     .frame(maxWidth:  .infinity,alignment: .leading)
                     .padding()
-                
-                
-                if cartManager.cartProducts.count < 1 {
-                    VStack {
-                        Spacer()
-                        Text("nothing yet")
-                            .foregroundStyle(Color.black)
+                    .foregroundStyle(.black)
+           
+                                     VStack{
                         
-                        Spacer()
-                    }
-                    .frame(width: 400 )
-                    
-                }else{
-                    HStack{
-                        Text("Your Total is ")
-                        Spacer()
-                        Text("$\(cartManager.cartTotal)")
-                    }
-                    .foregroundStyle(Color.black)
-                    .padding()
-                    ScrollView(.vertical) {
-                        VStack{
-                            ForEach(cartManager.cartProducts , id: \.id){ product in
-                                CartProductView(product: product)
+                        
+                        
+                        if cartManager.cartProducts.count < 1 {
+                            VStack {
+                                Spacer()
+                                Text("nothing yet")
+                                    .foregroundStyle(Color.black)
+                                
+                                Spacer()
                             }
+                            .frame(width: 400 )
+                            
+                        }else{
+                            HStack{
+                                Text("Your Total is ")
+                                Spacer()
+                                Text("$\(cartManager.cartTotal)")
+                            }
+                            .foregroundStyle(Color.black)
+                            .padding()
+                            ScrollView(.vertical) {
+                                VStack{
+                                    ForEach(cartManager.cartProducts , id: \.id){ product in
+                                        CartProductView(product: product)
+                                    }
+                                    
+                                }
+                                
+                                
+                            }
+                            ApplePayButton {
+                                if cartManager.cartProducts.count > 0 {
+                                    cartManager.completedOrder()
+                                }
+                            }
+                            .padding(.bottom, 80)
                             
                         }
-                        
-                        
                     }
-                    ApplePayButton {
-                        if cartManager.cartProducts.count > 0 {
-                            cartManager.completedOrder()
-                        }
-                    }
-                    .padding(.bottom, 80)
-                    
-                }
-                
                 
             }
             

@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		C295CA842BD171B400C46631 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C295CA832BD171B400C46631 /* HistoryView.swift */; };
 		C295CA862BD1722500C46631 /* HistoryModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C295CA852BD1722500C46631 /* HistoryModels.swift */; };
+		C295CA892BD1AA9E00C46631 /* OnboardingContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C295CA882BD1AA9E00C46631 /* OnboardingContainer.swift */; };
+		C295CA8B2BD1AABC00C46631 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C295CA8A2BD1AABC00C46631 /* OnboardingView.swift */; };
+		C295CA8D2BD1AACF00C46631 /* OnboardingModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C295CA8C2BD1AACF00C46631 /* OnboardingModels.swift */; };
 		C2E10F3E2BD05191008AF02E /* GaminStoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E10F3D2BD05191008AF02E /* GaminStoreApp.swift */; };
 		C2E10F422BD05194008AF02E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2E10F412BD05194008AF02E /* Assets.xcassets */; };
 		C2E10F452BD05194008AF02E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2E10F442BD05194008AF02E /* Preview Assets.xcassets */; };
@@ -52,6 +55,9 @@
 /* Begin PBXFileReference section */
 		C295CA832BD171B400C46631 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 		C295CA852BD1722500C46631 /* HistoryModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryModels.swift; sourceTree = "<group>"; };
+		C295CA882BD1AA9E00C46631 /* OnboardingContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainer.swift; sourceTree = "<group>"; };
+		C295CA8A2BD1AABC00C46631 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		C295CA8C2BD1AACF00C46631 /* OnboardingModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingModels.swift; sourceTree = "<group>"; };
 		C2E10F3A2BD05191008AF02E /* GaminStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GaminStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2E10F3D2BD05191008AF02E /* GaminStoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaminStoreApp.swift; sourceTree = "<group>"; };
 		C2E10F412BD05194008AF02E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -103,6 +109,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C295CA872BD1AA7A00C46631 /* Onbording */ = {
+			isa = PBXGroup;
+			children = (
+				C295CA882BD1AA9E00C46631 /* OnboardingContainer.swift */,
+				C295CA8A2BD1AABC00C46631 /* OnboardingView.swift */,
+				C295CA8C2BD1AACF00C46631 /* OnboardingModels.swift */,
+			);
+			path = Onbording;
+			sourceTree = "<group>";
+		};
 		C2E10F312BD05191008AF02E = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +142,7 @@
 		C2E10F3C2BD05191008AF02E /* GaminStore */ = {
 			isa = PBXGroup;
 			children = (
+				C295CA872BD1AA7A00C46631 /* Onbording */,
 				C2E10F3D2BD05191008AF02E /* GaminStoreApp.swift */,
 				C2E10F6F2BD051CC008AF02E /* EcommerceApp.swift */,
 				C2E10F892BD0BAC6008AF02E /* Test.swift */,
@@ -354,6 +371,9 @@
 				C2E10F7B2BD051CC008AF02E /* HomeEC.swift in Sources */,
 				C2E10F8A2BD0BAC6008AF02E /* Test.swift in Sources */,
 				C2E10F3E2BD05191008AF02E /* GaminStoreApp.swift in Sources */,
+				C295CA8B2BD1AABC00C46631 /* OnboardingView.swift in Sources */,
+				C295CA892BD1AA9E00C46631 /* OnboardingContainer.swift in Sources */,
+				C295CA8D2BD1AACF00C46631 /* OnboardingModels.swift in Sources */,
 				C2E10F752BD051CC008AF02E /* SearchECView.swift in Sources */,
 				C2E10F842BD06EBF008AF02E /* ApplePayButton.swift in Sources */,
 				C2E10F802BD0578D008AF02E /* CartProductView.swift in Sources */,

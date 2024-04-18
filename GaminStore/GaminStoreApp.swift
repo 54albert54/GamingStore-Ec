@@ -10,12 +10,19 @@ import SwiftUI
 @main
 struct GaminStoreApp: App {
     @StateObject var vm = CartEcomesViewModel()
+    @AppStorage("isOnboarding") var isOnboarding = true
     var body: some Scene {
         WindowGroup {
-            NavigationStack{
-                EcommerceApp()
-                    .environmentObject(vm)
+            if isOnboarding {
+                OnboardingContainer()
+            }else{
+                NavigationStack{
+                    EcommerceApp()
+                        .environmentObject(vm)
+                }
             }
+            
+           
             
 //            Test()
           
